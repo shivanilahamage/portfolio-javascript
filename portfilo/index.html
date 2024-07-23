@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porfolio Website</title>
+    <link rel="stylesheet" href="style.css" /> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Fontawesome fonts-->
+    <script
+      src="https://kit.fontawesome.com/d0389be824.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="img/OIP.jpg" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#project">Project</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+            <i class="fas fa-times"onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>Frontend Developer</p>
+          <h1>
+            Hi ,I'm <span>Shivani Lahamage</span><br> From Nasik
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------About-------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="img/photo.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <br />
+            <br />
+            <div class="info">
+              <p><span>Name :</span> Shivani Vishnu Lahamage.</p>
+              <br />
+              <p><span>Education :</span> BE Computer.</p>
+              <br />
+              <p><span>Date Of Birth :</span> 7 Feb 1999.</p>
+              <br />
+              <p><span>Address :</span> Makhmlabad Road ,Nasik.</p>
+              <br />
+              <p><span>Contact :</span> 9623294974.</p>
+              <br />
+              <p><span>Email :</span> shivanivlahamage@gmail.com.</p>
+              <br />
+              <p>Languages :<ul>
+                <li class="languages">Marathi</li>
+                <li class="languages">Hindi</li>
+                <li class="languages">English</li>
+              </ul></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------Skills-->
+    <div id="skill">
+      <div>
+        <h1>Skills:-</h1>
+        <p>Skills is the best way to change your life..</p>
+      </div>
+      <div class="list">
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>React</li>
+          <li>Bootstrap</li>
+          <li>Git</li>
+        </ul>
+      </div>
+    </div>
+
+    <!----------Project---------->
+    <div id="project">
+      <div class="project-lists">
+        <h1>Project</h1>
+        <ul>
+          <li>Personal Porttfolio using HTML CSS And Javascript</li>
+          <a href="https://github.com/shivanilahamage">Tap to view</a>
+
+          <li>To-Do-List-App using HTML CSS And Javascript</li>
+          <a href="https://github.com/shivanilahamage">Tap to view</a>
+
+          <li>Stopwatch using HTML CSS And Javascript</li>
+          <a href="https://github.com/shivanilahamage">Tap to view</a>
+
+          <li>Calculator using HTML CSS And React</li>
+          <a href="https://github.com/shivanilahamage">Tap to view</a>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ----------------Contact------------------ -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-left">
+            <h1>Contact Me</h1>
+            <p><i class="fa-solid fa-phone"></i>9623294974</p>
+            <br />
+            <p>
+              <i class="fa-solid fa-envelope"></i>shivanivlahamage@gmail.com
+            </p>
+            <br />
+            <div class="social-icon">
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="img/my-cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="col-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="text"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!--------Copyright----------->
+    <div class="copyright">
+      <p>copyright © <i class="fa-solid fa-heart"></i> shivani Lahamage</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
